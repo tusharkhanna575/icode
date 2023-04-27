@@ -1,8 +1,11 @@
-function validateForm() {
-    var email = document.forms["registration"]["email"].value;
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-        alert("Please enter a valid email address");
-        return false;
-    }
+// navbar togglemenu start
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
 }
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+// navbar togglemenu end
