@@ -11,7 +11,8 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(#5f0d46a5, #34054ab8), url(img/bg.jpg);
+    background-image: linear-gradient(#0d63729d, #22307b1a), url(img/bg.jpg);
+    background-color: rgb(255, 255, 255);
 }
 /* navbar section starts here */
 
@@ -43,6 +44,7 @@ nav .fab {
     padding: 8px 12px;
     position: relative;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .nav-links ul li a {
@@ -168,14 +170,14 @@ nav .fa {
 
 /* Services Section Start */
 
-.Notes {
+.service {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.Notes-col {
+.service-col {
     position: relative;
     flex-basis: 32%;
     border-radius: 10px;
@@ -183,7 +185,7 @@ nav .fa {
     overflow: hidden;
 }
 
-.Notes-col img {
+.service-col img {
     width: 100%;
     display: block;
 }
@@ -200,7 +202,7 @@ nav .fa {
 
 .layer:hover {
     /* background: rgba(226, 0, 0, 0.7); */
-    background: #530661b3;
+    background: #0d4b729d;
 }
 
 .layer h3 {
@@ -260,14 +262,14 @@ nav .fa {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .verticalLine {
     width: 2px;
     height: 100px;
     margin: 0 auto  40px;
-    background-color:#ba68c8;
+    background-color:#045097;
 }
 
 .Clear {
@@ -280,7 +282,7 @@ h1 {
     margin: 15px 0;
     line-height: 50px;
     text-transform: uppercase;
-    color: #ba68c8;
+    color: #045097;
 }
 
 p {
@@ -300,7 +302,7 @@ p {
 
 .Blog-col {
     flex-basis: 31%;
-    background-image: linear-gradient(#5f0d46a5, #34054ab8), url(img/blogimg.jpg);
+    background-image: linear-gradient(#0d46729d, #222f7b41);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -333,5 +335,154 @@ p {
 }
 
 /* Blog Section End */
+
+/* Facilities Section Start */
+
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities-col img {
+    width: 100%;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.facilities-col img:hover {
+    box-shadow: 0 0 20px 10px rgba(54, 58, 121, 0.2);
+}
+
+.facilities-col p {
+    padding: 0;
+}
+
+.facilities-col h3 {
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+/* Facilities Section End */
+
+/* Internship Section Start */
+
+.Intern{
+    font-size: 25px;
+    color:black;
+}
+
+.fas{
+    color: #ffff31;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.hero_btn2 {
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero_btn2:hover {
+    border: 1px solid  #000000;
+    background:  #045097;
+    color: #ffff31;
+    transition: 1s;
+}
+
+.Intern {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.verticalLine {
+    width: 2px;
+    height: 100px;
+    margin: 0 auto  40px;
+    background-color:#045097;
+}
+
+.Clear {
+    clear: both;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 800;
+    margin: 15px 0;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #045097;
+}
+
+p {
+    color: rgb(27, 27, 27);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Intern-col {
+    flex-basis: 31%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.Intern-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.1;
+}
+
+.Intern-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700px) {
+    .verticalLine {
+        widtH: 1px;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: unset;
+    }
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Internship Section End */
 
 
