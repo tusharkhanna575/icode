@@ -168,13 +168,54 @@ nav .fa {
 
 /* Center css ends here */
 
+/* About Us Section Start */
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.about-us h1{
+    text-align: center;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img {
+    width: 100%;
+}
+
+.about-col h1 {
+    padding-top: 0;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+    text-align: justify;
+}
+
+.btn {
+    border: 1px solid #5236f4;
+    background: transparent;
+    color: #5236f4;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+/* About Us Section end */
+
 /* Services Section Start */
 
 .service {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
 }
 
 .service-col {
@@ -348,7 +389,7 @@ p {
 .facilities-col {
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     text-align: left;
 }
 
